@@ -1,0 +1,89 @@
+{
+  "uid" : "793103c3b1b62226",
+  "name" : "test_wang_2[cl]",
+  "fullName" : "testcase.test_wangxue.TestWang#test_wang_2",
+  "historyId" : "11ce64f2be424e605518c9883cadbaa6",
+  "time" : {
+    "start" : 1672802123877,
+    "stop" : 1672802123877,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "my_fixture",
+    "time" : {
+      "start" : 1672802123877,
+      "stop" : 1672802123877,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "my_fixture::0",
+    "time" : {
+      "start" : 1672802123878,
+      "stop" : 1672802123878,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_wangxue"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestWang"
+  }, {
+    "name" : "host",
+    "value" : "PC-20200715ZEOD"
+  }, {
+    "name" : "thread",
+    "value" : "4224-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_wangxue"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "my_fixture",
+    "value" : "'成龙'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "793103c3b1b62226.json",
+  "parameterValues" : [ "'成龙'" ]
+}

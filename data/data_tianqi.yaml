@@ -1,0 +1,12 @@
+test_tianqi:
+  test_tianqi_001:
+    city: "北京"
+    code: 200
+
+  test_tianqi_002:
+    city: "上海"
+    code: 200
+    
+  test_tianqi_003:
+    city: "杭州"
+    code: 200

@@ -1,0 +1,3 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:273 Resetting dropped connection: passport.17k.com
+DEBUG    urllib3.connectionpool:connectionpool.py:456 https://passport.17k.com:443 "GET /ck/user/login HTTP/1.1" 200 None
+INFO     root:log_utils.py:24 登陆失败

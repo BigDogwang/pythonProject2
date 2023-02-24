@@ -1,0 +1,95 @@
+{
+  "uid" : "f500b68de2c6825d",
+  "name" : "test_tianqi_0[name0]",
+  "fullName" : "testcase.test_tianqi.Testtianqi#test_tianqi_0",
+  "historyId" : "3d3d8b042acf24aa1ee1bc00de214503",
+  "time" : {
+    "start" : 1672802265806,
+    "stop" : 1672802268828,
+    "duration" : 3022
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "第一步",
+      "time" : {
+        "start" : 1672802265806,
+        "stop" : 1672802268828,
+        "duration" : 3022
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "{'city': '北京', 'code': 200}"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_tianqi"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testtianqi"
+  }, {
+    "name" : "host",
+    "value" : "PC-20200715ZEOD"
+  }, {
+    "name" : "thread",
+    "value" : "636-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_tianqi"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "name",
+    "value" : "{'city': '北京', 'code': 200}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "33659acf66407130",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672802107579,
+        "stop" : 1672802110779,
+        "duration" : 3200
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f500b68de2c6825d.json",
+  "parameterValues" : [ "{'city': '北京', 'code': 200}" ]
+}

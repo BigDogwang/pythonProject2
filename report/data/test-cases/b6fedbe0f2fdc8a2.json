@@ -1,0 +1,91 @@
+{
+  "uid" : "b6fedbe0f2fdc8a2",
+  "name" : "test_tianqi2[name2]",
+  "fullName" : "testcase.test_tianqi.Testtianqi#test_tianqi2",
+  "historyId" : "ce7a33f4cb435a6c4b4bdd316c596e11",
+  "time" : {
+    "start" : 1672802121716,
+    "stop" : 1672802123867,
+    "duration" : 2151
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "第二部",
+      "time" : {
+        "start" : 1672802121716,
+        "stop" : 1672802123867,
+        "duration" : 2151
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "{'city': '杭州', 'code': 200}"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "3aeecb7278f3e71",
+      "name" : "log",
+      "source" : "3aeecb7278f3e71.txt",
+      "type" : "text/plain",
+      "size" : 236
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_tianqi"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testtianqi"
+  }, {
+    "name" : "host",
+    "value" : "PC-20200715ZEOD"
+  }, {
+    "name" : "thread",
+    "value" : "4224-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_tianqi"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "name",
+    "value" : "{'city': '杭州', 'code': 200}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b6fedbe0f2fdc8a2.json",
+  "parameterValues" : [ "{'city': '杭州', 'code': 200}" ]
+}

@@ -1,0 +1,62 @@
+{
+  "uid" : "d5ab3d018328a91e",
+  "name" : "test_api2[崔浩-20]",
+  "fullName" : "testcase.test_api.Testapi#test_api2",
+  "historyId" : "af031f7e58644eebdb548f24ec8ccb58",
+  "time" : {
+    "start" : 1672802107552,
+    "stop" : 1672802107552,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testapi"
+  }, {
+    "name" : "host",
+    "value" : "PC-20200715ZEOD"
+  }, {
+    "name" : "thread",
+    "value" : "4224-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "age",
+    "value" : "20"
+  }, {
+    "name" : "name",
+    "value" : "'崔浩'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d5ab3d018328a91e.json",
+  "parameterValues" : [ "20", "'崔浩'" ]
+}

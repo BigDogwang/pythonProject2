@@ -1,0 +1,8 @@
+pytest
+pytest-html            生成HTML格式的报告
+pytest-xdist           分布执行，多cpu分发
+pytest-ordering        改变用例的执行顺序
+pytest-rerunfailures   用例失败后重新跑
+allure-pytest          生成美观的测试报告的
+
+直接一起安装这些插件用命令    pip install req.txt

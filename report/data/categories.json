@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TypeError: get_screenshot_as_file() missing 1 required positional argument: 'filename'",
+      "children" : [ {
+        "name" : "test_01",
+        "uid" : "95e8b633c4b35704",
+        "parentUid" : "176dffaf871b062c3babfec52ce86da2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1675770309910,
+          "stop" : 1675770316863,
+          "duration" : 6953
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "176dffaf871b062c3babfec52ce86da2"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

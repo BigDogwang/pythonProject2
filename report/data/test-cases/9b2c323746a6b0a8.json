@@ -1,0 +1,90 @@
+{
+  "uid" : "9b2c323746a6b0a8",
+  "name" : "test_login[cuihao]",
+  "fullName" : "interface_testcase.test_17k.Test17k#test_login",
+  "historyId" : "b1f22238b957c1c5b6a54cb304453008",
+  "time" : {
+    "start" : 1672802107298,
+    "stop" : 1672802107434,
+    "duration" : 136
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "my_fixture_01",
+    "time" : {
+      "start" : 1672802107297,
+      "stop" : 1672802107297,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "219343b4361280f9",
+      "name" : "log",
+      "source" : "219343b4361280f9.txt",
+      "type" : "text/plain",
+      "size" : 275
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "interface_testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_17k"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test17k"
+  }, {
+    "name" : "host",
+    "value" : "PC-20200715ZEOD"
+  }, {
+    "name" : "thread",
+    "value" : "4224-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "interface_testcase.test_17k"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "my_fixture_01",
+    "value" : "'cuihao'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9b2c323746a6b0a8.json",
+  "parameterValues" : [ "'cuihao'" ]
+}

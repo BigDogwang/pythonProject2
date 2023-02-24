@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+
+	<title>æçä¹¦æ¶ -17Kå°è¯´ç½</title>
+	<meta name="Keywords" content="å°è¯´ï¼åååä½ï¼åè´¹ï¼æ æï¼éè¯»ï¼å¬ä¹¦ï¼å½±è§IPï¼ä¸­æå¨çº¿ï¼ç·çå°è¯´ï¼å¥³çå°è¯´ï¼çå¹»ï¼é½å¸ï¼åå²ï¼ç§å¹»ï¼è¨æï¼æµªæ¼«ï¼æ¸¸æï¼æ­¦ä¾ ï¼ä»ä¾ ï¼å¥å¹»ï¼åäºï¼ç«æ">
+<meta name="Description" content="17Kå°è¯´ç½(17k.com)åå»ºäº2006å¹´ï¼ååä¸èµ·çå°è¯´ç½ï¼æ¯ä¸­æå¨çº¿æä¸éåä½ãéè¯»äºä¸ä½çå¨çº¿éè¯»ç½ç«ãæä»¬ä»¥âè®©æ¯ä¸ªäººé½äº«ååä½çä¹è¶£âä¸ºä½¿å½ï¼æä¾çå¹»å¥å¹»ãé½å¸è¨æãæ­¦ä¾ ä»ä¾ ãéæ¥æ ¡å­ãç©¿è¶æ¶ç©ºãæææ¬çãåå²åäºãçç¬åäººãç»å¸æå­¦ãäºæ¬¡åç­å¨çº¿éè¯»ä»¥ååè´¹ä¸è½½ã">
+	<link rel="stylesheet"
+	  href='//static.17k.com/skin/main.css?v=0911'>
+
+<script type="text/javascript"
+		src='//static.17k.com/lib/vConsole/vconsole.min.js?v=0911'></script>
+
+<script type="text/javascript"
+		src='//static.17k.com/js/main.js?v=0911'></script>
+
+<script type="text/javascript" src="//static.17k.com/www/Q/Q.js"></script>
+<!--<link href="//static.17k.com/www/skin/main_old.css" rel="stylesheet" type="text/css"/>-->
+<!--éæ-->
+<link rel="stylesheet" href='//static.17k.com/www/skin/main.css?v=0915'/>
+<script type="text/javascript" src='//static.17k.com/www/js/main.js?v=0915'></script>
+	<link href='//static.17k.com/users/www/skin/main.css?v=0911'
+	  rel="stylesheet">
+<script crossorigin
+		defer
+		src='//static.17k.com/users/www/js/main.js?v=0911'
+		type="text/javascript"></script>
+
+	<link href='//static.17k.com/users/www/skin/bookshelf.css?v=0911'
+	  rel="stylesheet">
+<script crossorigin
+		defer
+		src='//static.17k.com/users/www/js/bookshelf.js?v=0911'
+		type="text/javascript"></script>
+
+</head>
+<body>
+<div id="setHeader" class="QUI"></div>
+
+<!--å¨å±éªè¯ç»å½-->
+<div class="isLogin">
+	<!--åå®¹-->
+	<div class="main">
+		<div class="content">
+			<div class="fl QUI">
+				<!--æçèµæå¯¼èª-->
+				<div class="tab">
+	<div>
+		<a href="/www/bookshelf/index.html">æçä¹¦æ¶</a>
+		<a href="/www/bookshelf/subscription.html">æçè®¢é</a>
+		<a href="/www/bookshelf/read.html">æè¿éè¯»</a>
+	</div>
+</div>
+
+				<!--if bookShelf-->
+				<!--æè¿éè¯»-->
+				<div class="box">
+					<div class="b-con">
+						<form id="pageListForm" name="pageListForm">
+							<table class="" cellpadding="0" cellspacing="0">
+								<thead>
+								<tr>
+									<td>åç±»</td>
+									<td>ä½åä¿¡æ¯</td>
+									<td>æè¿éè¯»ç« è</td>
+									<td>æè¿éè¯»æ¶é´</td>
+									<td>ä½è</td>
+									<td>éè¯»è¿åº¦</td>
+								</tr>
+								</thead>
+								<tbody>
+								<!--for bookShelf-->
+								<tr>
+									<td class="catalog gray">{{category}}</td>
+									<td class="bookName">{{bookName}}</td>
+									<td class="lastest">{{bookmarkChapterName}}</td>
+									<td>{{updateTimeValue}}</td>
+									<td class="gray">{{authorPenName}}</td>
+									<td>{{is_updata}}</td>
+								</tr>
+								<!--endfor bookShelf-->
+								</tbody>
+							</table>
+						</form>
+					</div>
+				</div>
+				<!--endif bookshelf-->
+				<div id="page_bar"></div>
+			</div>
+			<div class="rl">
+				<!--ä¾§è¾¹ç¨æ·ç»è®¡-->
+				<link href='//static.17k.com/users/www/skin/sign.css?v=0911'
+	  rel="stylesheet"
+	  type="text/css">
+<div class="user-sign QUI">
+	<a class="authorbtn" href="//author2.17k.com/" target="_blank"></a>
+	<div class="box">
+		<h2 class="b-tit">
+			<span class="con">æçè´¦æ·</span>
+		</h2>
+		<div class="b-con">
+			<ul class="userSign">
+				<li>
+					<div class="icon_kb">
+						<h2>{{balance}}</h2>
+					</div>
+				</li>
+				<!--if show-->
+				<li>
+					<div class="icon_ydd">
+						<h2>{{appleBalance}}</h2>
+					</div>
+				</li>
+				<!--endif show-->
+				<li>
+					<div class="icon_djq">
+						<h2>{{totalDJQ}}</h2>
+					</div>
+				</li>
+				<li class="last">
+					<div class="icon_tjp">
+						<h2>{{totalTJQ}}</h2>
+					</div>
+				</li>
+			</ul>
+			<div class="gopay">
+				<a href="//pay.17k.com/www/" target="_blank">ç«å³åå¼</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+				<!--å¬å-->
+				<div class="box">
+	<h2 class="b-tit">
+		<span class="con">æ°é»å¬å</span>
+	</h2>
+	<div class="b-con">
+		<div class="news">
+			<div id="newsType"></div>
+			<script type="text/javascript">
+				var url = ''
+				switch (k.domain){
+					case '17k.com':
+						url = '/inc/fragment/user/new';
+						break;
+					case '4yt.net':
+						url = '/inc/4yt/user/index/news';
+						break;
+					case 'phmeta.com':
+						url = '/inc/phmeta/user/index/news';
+						break;
+					case 'sfmystern.com':
+						url = '/inc/sfmystern/user/index/news';
+						break;
+				}
+				k.get(url + '.html', {}, function (DATA) {
+						k('#newsType').html(DATA);
+					}, 'text'
+				);
+			</script>
+		</div>
+	</div>
+</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<link rel="stylesheet" href='//static.17k.com/www/skin/17k_footer.css?v=0915'>
+
+<div class="Footer">
+	<div class="footer_nav">
+		<a rel="nofollow" target="_blank" href="//www.17k.com/aboutus/">å³äº17k.com</a>&#12288;|&#12288;
+		<a rel="nofollow" target="_blank" href="//www.17k.com/aboutus/Cooperation.html">åå¡åä½</a>&#12288;|&#12288;
+		<a target="_blank" href="//www.17k.com/aboutus/link.html">åæé¾æ¥</a>&#12288;|&#12288;
+		<a rel="nofollow" target="_blank" href="//www.17k.com/Simple/contents/helpCenter/index.html">å¸®å©ä¸­å¿</a>&#12288;|&#12288;
+		<a rel="nofollow" target="_blank" href="//www.17k.com/Simple/contents/login/Rdme.html">ç¨æ·å®å</a>&#12288;|&#12288;
+		<a target="_blank" href="//www.17k.com/aboutus/sitemap.html">ç½ç«å°å¾</a>&#12288;|&#12288;
+		<a target="_blank" href="//www.17k.com/tags">å°è¯´æ ç­¾</a>&#12288;|&#12288;
+		<a target="_blank" href="//www.17k.com/Simple/contents/helpCenter/index.html?typeId=39">å¨æ¼«ä¸æ </a>
+
+	</div>
+	<p>
+		Copyright (C) 2006-2022 www.17k.com All Rights Reserved ä¸­æå¨çº¿çæææï¼
+		<a target="_blank" href="//www.17k.com/man/dushi/">é½å¸å°è¯´</a>ã
+		<a target="_blank" href="//www.17k.com/man/xianxiawuxia/">ä»ä¾ æ­¦ä¾ </a>ã
+		<a target="_blank" href="//www.17k.com/mm/">è¨æå°è¯´</a>ç­å¨çº¿å°è¯´éè¯»ç½ç«ï¼æªç»è®¸å¯ä¸å¾æèªè½¬è½½æ¬ç«åå®¹ã<br>
+		17Kå°è¯´ç½ææ¶å½åè´¹å°è¯´ä½åãç¤¾åºè¯é¢ãä¹¦åè¯è®ºãç¨æ·ä¸ä¼ æå­ãå¾çç­å¶ä»ä¸ååå®¹åå±ç¨æ·ä¸ªäººè¡ä¸ºï¼ä¸17Kå°è¯´ç½æ å³ã--17Kæå©å£°æã<br>
+		äº¬ICPè¯010590å·ã<a target="_blank" href="https://beian.miit.gov.cn">äº¬ICPå¤09030667å·-5</a>ãããäº¬ç½æï¼2020ï¼5622-1084å·ãã ï¼ç½²ï¼ç½åºè¯ï¼äº¬ï¼å­ç¬¬112å·ã<br>
+		<img src="//cdn.static.17k.com/material_picture/2022/1654841315108.png" style="vertical-align: middle"/><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo"  style="vertical-align: middle">äº¬å¬å®ç½å¤ï¼11010102000012å·</a><br>
+		è¿æ³åä¸è¯ä¿¡æ¯ä¸¾æ¥çµè¯ï¼ 188 6819 3136 ä¾µæåå®¹åæªæå¹´ä¿¡æ¯ä¸¾æ¥é®ç®±ï¼17Kjubao@col.com
+		<br/>
+		å¬å¸åç§°ï¼ä¸­æå¨çº¿æ°å­åºçéå¢è¡ä»½æéå¬å¸ å°åï¼åäº¬å¸ä¸ååºå®å®é¨ä¸å¤§è¡28å·éåå¤§å¦2å·æ¥¼6å±608
+	</p>
+
+	<p class="linkimg">
+		<!--<a href="https://ss.knet.cn/verifyseal.dll?sn=e13062011010041317xgep000000&amp;ct=df&amp;a=1&amp;pa=0.9085826601367444"
+		   target="_blank" kx_type="å¾æ å¼">
+			<img src="//rr.knet.cn/static/images/logo/cnnic.png" alt="å¯ä¿¡ç½ç«">
+		</a>
+		<a href="http://v.pinpaibao.com.cn/authenticate/cert/?site=www.17k.com&at=business" target="_blank">
+			<img src="//static.anquan.org/static/outer/image/hy_124x47.png" alt="å®å¨èçè®¤è¯" width="124" height="47">
+		</a>-->
+		<a rel="nofollow" target="_blank" href="https://www.12377.cn/">
+			<img src="//static.17k.com/www/pic/icon_not.jpg" alt="ä¸è¯ç½ç«ä¸¾æ¥">
+		</a>
+		<a target="_blank" href="http://www.shdf.gov.cn/shdf/channels/740.html">
+			<img src="//static.17k.com/www/pic/icon_not2.jpg" alt="æ«é»æéä¸¾æ¥å¥å£">
+		</a>
+		<a target="_blank" href="https://www.12377.cn/jbxzxq/64d38691937611ebb858c9da04cf59d3_web.html">
+			<img src="//static.17k.com/www/pic/icon_not3.jpg" alt="åå²èæ ä¸»ä¹">
+		</a>
+	</p>
+</div>
+<script>
+	var _hmt = _hmt || [];
+	(function () {
+		var hm = document.createElement('script');
+		hm.src = 'https://hm.baidu.com/hm.js?9793f42b498361373512340937deb2a0';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(hm, s);
+	})();
+
+	if(k.domain ==='sfmystern.com'){
+	  var headTitleDom  = document.getElementsByTagName("title")[0]
+    headTitleDom.innerText =  headTitleDom.innerText.replace("17Kå°è¯´ç½","è°æ³è®¡å")
+  }
+</script>
+<script type="text/javascript" src="https://zz.bdstatic.com/linksubmit/push.js"></script>
+
+<script src='//static.17k.com/js/count.js?v=20200909'
+		type="text/javascript"></script>
+
+</body>
+</html>

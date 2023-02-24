@@ -1,0 +1,59 @@
+{
+  "uid" : "f4717d8b2a0f11c9",
+  "name" : "test_03",
+  "fullName" : "interface_testcase.test_sprint.TestSprint#test_03",
+  "historyId" : "bc102c12ebca62dd98b0e6a1a692f4b2",
+  "time" : {
+    "start" : 1672802107533,
+    "stop" : 1672802107533,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "P0"
+  }, {
+    "name" : "parentSuite",
+    "value" : "interface_testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_sprint"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSprint"
+  }, {
+    "name" : "host",
+    "value" : "PC-20200715ZEOD"
+  }, {
+    "name" : "thread",
+    "value" : "4224-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "interface_testcase.test_sprint"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "P0" ]
+  },
+  "source" : "f4717d8b2a0f11c9.json",
+  "parameterValues" : [ ]
+}

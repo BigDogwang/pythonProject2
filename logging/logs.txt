@@ -1,0 +1,14 @@
+这是info信息
+这是warning信息
+这是error信息
+这是critical信息
+这是debug信息
+这是info信息
+这是warning信息
+这是error信息
+这是critical信息
+这是debug信息
+这是info信息
+这是warning信息
+这是error信息
+这是critical信息
