@@ -10,3 +10,7 @@ test_tianqi:
   test_tianqi_003:
     city: "杭州"
     code: 200
+
+  test_tianqi_004:
+    city: "贵州"
+    code: 200
