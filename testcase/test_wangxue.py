@@ -17,3 +17,4 @@ class TestWang:
 
 if __name__ == '__main__':
     TestWang().test_wang_1()
+    TestWang().test_wang_2()
