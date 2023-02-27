@@ -13,4 +13,4 @@ test_tianqi:
 
   test_tianqi_004:
     city: "贵州"
-    code: 2002
+    code: 200

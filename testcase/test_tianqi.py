@@ -19,7 +19,7 @@ class Testtianqi:
         assert res.status_code == name["code"]
 
 
-    @allure.step("第二部")
+    @allure.step("第二步")
     @pytest.mark.parametrize('name', YamlOperation.read_yaml('./data/data_tianqi.yaml','test_tianqi'))
     def test_tianqi2(self,name):
         url = 'https://tenapi.cn/wether/'
