@@ -5,5 +5,5 @@ while age < 18:
     age = age + 1
     print('明年在来'+str(age))
     if age ==18:
-        print('成年')
+        print('成年le')
 
